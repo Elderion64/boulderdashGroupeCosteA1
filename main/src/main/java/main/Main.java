@@ -27,6 +27,7 @@ public abstract class Main {
             controller.start();
         } catch (final SQLException exception) {
             exception.printStackTrace();
+            // hello le projet horrible
         }
     }
 
